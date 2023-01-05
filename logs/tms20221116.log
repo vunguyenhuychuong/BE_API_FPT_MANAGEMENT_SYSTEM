@@ -1,0 +1,358 @@
+2022-11-16 14:07:15,625 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.4.Final
+2022-11-16 14:07:15,677 [restartedMain] INFO  c.j.t.Java08Application                            - Starting Java08Application using Java 18.0.1.1 on DESKTOP-O7JQGLD with PID 19904 (C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08\target\classes started by Acer in C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08)
+2022-11-16 14:07:15,677 [restartedMain] INFO  c.j.t.Java08Application                            - No active profile set, falling back to 1 default profile: "default"
+2022-11-16 14:07:15,741 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 14:07:15,741 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 14:07:16,832 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-16 14:07:16,832 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 14:07:17,035 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 195 ms. Found 26 JPA repository interfaces.
+2022-11-16 14:07:17,723 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-11-16 14:07:17,739 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-16 14:07:17,739 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-11-16 14:07:17,739 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-16 14:07:17,833 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-11-16 14:07:17,833 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2092 ms
+2022-11-16 14:07:18,004 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 14:07:18,051 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-16 14:07:18,161 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 14:07:18,239 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2022-11-16 14:07:18,489 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2022-11-16 14:07:18,504 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-16 14:07:18,895 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000038: Composite-id class does not override equals(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 14:07:18,895 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000039: Composite-id class does not override hashCode(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 14:07:21,757 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 14:07:21,757 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 14:07:22,273 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'loadUserByUsername' with attribute: [Builder[public org.springframework.security.core.userdetails.UserDetails com.java8.tms.common.security.userprincipal.CustomUserDetailService.loadUserByUsername(java.lang.String) throws org.springframework.security.core.userdetails.UsernameNotFoundException] caches=[userDetails] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 14:07:22,351 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'save' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.save(com.java8.tms.common.entity.BlackAccessToken)] caches=[blackAccessToken] | key='#blackAccessToken.accessToken' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null']
+2022-11-16 14:07:22,351 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByAccessToken' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.findByAccessToken(java.lang.String)] caches=[blackAccessToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null' | sync='false']
+2022-11-16 14:07:22,668 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByToken' with attribute: [Builder[public java.util.Optional com.java8.tms.common.security.jwt.RefreshTokenProvider.findByToken(java.lang.String)] caches=[refreshToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 14:07:23,367 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 14:07:24,007 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@76960278, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d26d474, org.springframework.security.web.context.SecurityContextPersistenceFilter@70fd28, org.springframework.security.web.header.HeaderWriterFilter@71806345, org.springframework.web.filter.CorsFilter@11b5fe3c, org.springframework.security.web.authentication.logout.LogoutFilter@2c9d6f71, com.java8.tms.common.security.jwt.JwtTokenFilter@5980517a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@12d3ad84, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3ee1ca08, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@f99561f, org.springframework.security.web.session.SessionManagementFilter@4d51f348, org.springframework.security.web.access.ExceptionTranslationFilter@1b8c3346, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5bb83765]
+2022-11-16 14:07:24,007 [restartedMain] INFO  c.j.t.Java08Application                            - Start schedule success!
+2022-11-16 14:07:24,117 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-11-16 14:07:24,382 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-11-16 14:07:24,398 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-16 14:07:24,413 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-16 14:07:24,429 [restartedMain] INFO  c.j.t.Java08Application                            - Started Java08Application in 9.093 seconds (JVM running for 10.192)
+2022-11-16 14:08:00,022 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:08:00 ICT 2022
+2022-11-16 14:09:00,015 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:09:00 ICT 2022
+2022-11-16 14:10:00,002 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:10:00 ICT 2022
+2022-11-16 14:11:00,004 [taskScheduler-2] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:11:00 ICT 2022
+2022-11-16 14:12:00,009 [taskScheduler-5] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:12:00 ICT 2022
+2022-11-16 14:13:00,001 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:13:00 ICT 2022
+2022-11-16 14:14:00,013 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:14:00 ICT 2022
+2022-11-16 14:15:00,000 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:15:00 ICT 2022
+2022-11-16 14:16:00,013 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:16:00 ICT 2022
+2022-11-16 14:17:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:17:00 ICT 2022
+2022-11-16 14:18:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:18:00 ICT 2022
+2022-11-16 14:19:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:19:00 ICT 2022
+2022-11-16 14:20:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:20:00 ICT 2022
+2022-11-16 14:21:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:21:00 ICT 2022
+2022-11-16 14:22:00,016 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:22:00 ICT 2022
+2022-11-16 14:23:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:23:00 ICT 2022
+2022-11-16 14:24:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:24:00 ICT 2022
+2022-11-16 14:25:00,009 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:25:00 ICT 2022
+2022-11-16 14:26:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:26:00 ICT 2022
+2022-11-16 14:27:00,009 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:27:00 ICT 2022
+2022-11-16 14:28:00,002 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:28:00 ICT 2022
+2022-11-16 14:29:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:29:00 ICT 2022
+2022-11-16 14:30:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:30:00 ICT 2022
+2022-11-16 14:31:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:31:00 ICT 2022
+2022-11-16 14:32:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:32:00 ICT 2022
+2022-11-16 14:33:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:33:00 ICT 2022
+2022-11-16 14:34:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:34:00 ICT 2022
+2022-11-16 14:35:00,000 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:35:00 ICT 2022
+2022-11-16 14:36:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:36:00 ICT 2022
+2022-11-16 14:37:00,013 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:37:00 ICT 2022
+2022-11-16 14:38:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:38:00 ICT 2022
+2022-11-16 14:39:00,015 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:39:00 ICT 2022
+2022-11-16 14:40:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:40:00 ICT 2022
+2022-11-16 14:41:00,016 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:41:00 ICT 2022
+2022-11-16 14:42:00,001 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:42:00 ICT 2022
+2022-11-16 14:43:00,012 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:43:00 ICT 2022
+2022-11-16 14:44:00,000 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:44:00 ICT 2022
+2022-11-16 14:45:00,008 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:45:00 ICT 2022
+2022-11-16 14:46:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:46:00 ICT 2022
+2022-11-16 14:47:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:47:00 ICT 2022
+2022-11-16 14:48:00,006 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:48:00 ICT 2022
+2022-11-16 14:49:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:49:00 ICT 2022
+2022-11-16 14:50:00,011 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:50:00 ICT 2022
+2022-11-16 14:51:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:51:00 ICT 2022
+2022-11-16 14:52:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:52:00 ICT 2022
+2022-11-16 14:53:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:53:00 ICT 2022
+2022-11-16 14:54:00,009 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:54:00 ICT 2022
+2022-11-16 14:55:00,011 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:55:00 ICT 2022
+2022-11-16 14:56:00,008 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:56:00 ICT 2022
+2022-11-16 14:57:00,006 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:57:00 ICT 2022
+2022-11-16 14:58:00,006 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:58:00 ICT 2022
+2022-11-16 14:59:00,013 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 14:59:00 ICT 2022
+2022-11-16 15:00:00,015 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:00:00 ICT 2022
+2022-11-16 15:01:00,015 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:01:00 ICT 2022
+2022-11-16 15:01:00,030 [taskScheduler-6] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredRefreshToken task  - Wed Nov 16 15:01:00 ICT 2022
+2022-11-16 15:02:00,017 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:02:00 ICT 2022
+2022-11-16 15:03:00,002 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:03:00 ICT 2022
+2022-11-16 15:04:00,017 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:04:00 ICT 2022
+2022-11-16 15:05:00,016 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:05:00 ICT 2022
+2022-11-16 15:06:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:06:00 ICT 2022
+2022-11-16 15:07:00,017 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:07:00 ICT 2022
+2022-11-16 15:08:00,008 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:08:00 ICT 2022
+2022-11-16 15:09:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:09:00 ICT 2022
+2022-11-16 15:10:00,016 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:10:00 ICT 2022
+2022-11-16 15:11:00,018 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:11:00 ICT 2022
+2022-11-16 15:12:00,017 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:12:00 ICT 2022
+2022-11-16 15:12:00,017 [taskScheduler-7] WARN  o.h.e.j.s.SqlExceptionHelper                       - SQL Error: 1146, SQLState: 42S02
+2022-11-16 15:12:00,017 [taskScheduler-7] ERROR o.h.e.j.s.SqlExceptionHelper                       - Table 'tms.black_access_token' doesn't exist
+2022-11-16 15:12:00,033 [taskScheduler-7] ERROR o.s.s.s.TaskUtils$LoggingErrorHandler              - Unexpected error occurred in scheduled task
+org.springframework.dao.InvalidDataAccessResourceUsageException: could not extract ResultSet; SQL [n/a]; nested exception is org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.convertHibernateAccessException(HibernateJpaDialect.java:259) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.orm.jpa.vendor.HibernateJpaDialect.translateExceptionIfPossible(HibernateJpaDialect.java:233) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.orm.jpa.AbstractEntityManagerFactoryBean.translateExceptionIfPossible(AbstractEntityManagerFactoryBean.java:551) ~[spring-orm-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.ChainedPersistenceExceptionTranslator.translateExceptionIfPossible(ChainedPersistenceExceptionTranslator.java:61) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.DataAccessUtils.translateIfNecessary(DataAccessUtils.java:242) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:152) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.jpa.repository.support.CrudMethodMetadataPostProcessor$CrudMethodMetadataPopulatingMethodInterceptor.invoke(CrudMethodMetadataPostProcessor.java:145) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:97) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.JdkDynamicAopProxy.invoke(JdkDynamicAopProxy.java:215) ~[spring-aop-5.3.22.jar:5.3.22]
+	at jdk.proxy3.$Proxy164.findAllByExpiryDateBefore(Unknown Source) ~[?:?]
+	at com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.findAllByExpiryDateBefore(BlackAccessTokenServiceImp.java:30) ~[classes/:?]
+	at com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp$$FastClassBySpringCGLIB$$d84e99b8.invoke(<generated>) ~[classes/:?]
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218) ~[spring-core-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy.invokeMethod(CglibAopProxy.java:386) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy.access$000(CglibAopProxy.java:85) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:704) ~[spring-aop-5.3.22.jar:5.3.22]
+	at com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp$$EnhancerBySpringCGLIB$$35ba0c64.findAllByExpiryDateBefore(<generated>) ~[classes/:?]
+	at com.java8.tms.common.schedule.MyJob.deleteExpiredAccessToken(MyJob.java:50) ~[classes/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.3.22.jar:5.3.22]
+	at org.springframework.scheduling.concurrent.ReschedulingRunnable.run(ReschedulingRunnable.java:95) ~[spring-context-5.3.22.jar:5.3.22]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539) ~[?:?]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:264) ~[?:?]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136) ~[?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635) ~[?:?]
+	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+Caused by: org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at org.hibernate.exception.internal.SQLExceptionTypeDelegate.convert(SQLExceptionTypeDelegate.java:63) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.exception.internal.StandardSQLExceptionConverter.convert(StandardSQLExceptionConverter.java:37) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:113) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.jdbc.spi.SqlExceptionHelper.convert(SqlExceptionHelper.java:99) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:67) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2868) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2677) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406) ~[spring-orm-5.3.22.jar:5.3.22]
+	at jdk.proxy3.$Proxy222.getResultList(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.22.jar:5.3.22]
+	... 26 more
+Caused by: java.sql.SQLSyntaxErrorException: Table 'tms.black_access_token' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:916) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:972) ~[mysql-connector-java-8.0.30.jar:8.0.30]
+	at com.zaxxer.hikari.pool.ProxyPreparedStatement.executeQuery(ProxyPreparedStatement.java:52) ~[HikariCP-4.0.3.jar:?]
+	at com.zaxxer.hikari.pool.HikariProxyPreparedStatement.executeQuery(HikariProxyPreparedStatement.java) ~[HikariCP-4.0.3.jar:?]
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.extract(ResultSetReturnImpl.java:57) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.getResultSet(Loader.java:2322) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2075) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.executeQueryStatement(Loader.java:2037) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doQuery(Loader.java:956) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doQueryAndInitializeNonLazyCollections(Loader.java:357) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2868) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.doList(Loader.java:2850) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.listIgnoreQueryCache(Loader.java:2682) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.Loader.list(Loader.java:2677) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.loader.hql.QueryLoader.list(QueryLoader.java:540) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.hql.internal.ast.QueryTranslatorImpl.list(QueryTranslatorImpl.java:400) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.engine.query.spi.HQLQueryPlan.performList(HQLQueryPlan.java:219) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1459) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.doList(AbstractProducedQuery.java:1649) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.internal.AbstractProducedQuery.list(AbstractProducedQuery.java:1617) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at org.hibernate.query.Query.getResultList(Query.java:165) ~[hibernate-core-5.6.10.Final.jar:5.6.10.Final]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.springframework.orm.jpa.SharedEntityManagerCreator$DeferredQueryInvocationHandler.invoke(SharedEntityManagerCreator.java:406) ~[spring-orm-5.3.22.jar:5.3.22]
+	at jdk.proxy3.$Proxy222.getResultList(Unknown Source) ~[?:?]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution$CollectionExecution.doExecute(JpaQueryExecution.java:128) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.JpaQueryExecution.execute(JpaQueryExecution.java:90) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.doExecute(AbstractJpaQuery.java:156) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.jpa.repository.query.AbstractJpaQuery.execute(AbstractJpaQuery.java:144) ~[spring-data-jpa-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.doInvoke(RepositoryMethodInvoker.java:137) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.RepositoryMethodInvoker.invoke(RepositoryMethodInvoker.java:121) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.doInvoke(QueryExecutorMethodInterceptor.java:160) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.data.repository.core.support.QueryExecutorMethodInterceptor.invoke(QueryExecutorMethodInterceptor.java:139) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.data.projection.DefaultMethodInvokingMethodInterceptor.invoke(DefaultMethodInvokingMethodInterceptor.java:81) ~[spring-data-commons-2.7.2.jar:2.7.2]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:388) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119) ~[spring-tx-5.3.22.jar:5.3.22]
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186) ~[spring-aop-5.3.22.jar:5.3.22]
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137) ~[spring-tx-5.3.22.jar:5.3.22]
+	... 26 more
+2022-11-16 15:12:55,238 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 15:12:55,254 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2022-11-16 15:12:55,254 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2022-11-16 15:15:59,163 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.4.Final
+2022-11-16 15:15:59,189 [restartedMain] INFO  c.j.t.Java08Application                            - Starting Java08Application using Java 18.0.1.1 on DESKTOP-O7JQGLD with PID 20488 (C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08\target\classes started by Acer in C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08)
+2022-11-16 15:15:59,191 [restartedMain] INFO  c.j.t.Java08Application                            - No active profile set, falling back to 1 default profile: "default"
+2022-11-16 15:15:59,232 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 15:15:59,232 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 15:16:00,052 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-16 15:16:00,052 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 15:16:00,239 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 190 ms. Found 26 JPA repository interfaces.
+2022-11-16 15:16:00,804 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-11-16 15:16:00,804 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-16 15:16:00,804 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-11-16 15:16:00,804 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-16 15:16:00,898 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-11-16 15:16:00,898 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1666 ms
+2022-11-16 15:16:01,070 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 15:16:01,101 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-16 15:16:01,211 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 15:16:01,289 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2022-11-16 15:16:01,492 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2022-11-16 15:16:01,492 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-16 15:16:01,882 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000038: Composite-id class does not override equals(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 15:16:01,882 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000039: Composite-id class does not override hashCode(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 15:16:04,555 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 15:16:04,571 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 15:16:04,977 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'loadUserByUsername' with attribute: [Builder[public org.springframework.security.core.userdetails.UserDetails com.java8.tms.common.security.userprincipal.CustomUserDetailService.loadUserByUsername(java.lang.String) throws org.springframework.security.core.userdetails.UsernameNotFoundException] caches=[userDetails] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 15:16:05,055 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'save' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.save(com.java8.tms.common.entity.BlackAccessToken)] caches=[blackAccessToken] | key='#blackAccessToken.accessToken' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null']
+2022-11-16 15:16:05,055 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByAccessToken' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.findByAccessToken(java.lang.String)] caches=[blackAccessToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null' | sync='false']
+2022-11-16 15:16:05,321 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByToken' with attribute: [Builder[public java.util.Optional com.java8.tms.common.security.jwt.RefreshTokenProvider.findByToken(java.lang.String)] caches=[refreshToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 15:16:06,001 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 15:16:06,756 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4ae30f62, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1dfdc5d4, org.springframework.security.web.context.SecurityContextPersistenceFilter@712c884f, org.springframework.security.web.header.HeaderWriterFilter@24f64edc, org.springframework.web.filter.CorsFilter@62f14c1b, org.springframework.security.web.authentication.logout.LogoutFilter@132b7629, com.java8.tms.common.security.jwt.JwtTokenFilter@17103905, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42ac2f43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6294cef5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1ddfec07, org.springframework.security.web.session.SessionManagementFilter@5628cb56, org.springframework.security.web.access.ExceptionTranslationFilter@e84f7c5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51ad0273]
+2022-11-16 15:16:06,756 [restartedMain] INFO  c.j.t.Java08Application                            - Start schedule success!
+2022-11-16 15:16:06,865 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-11-16 15:16:07,115 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-11-16 15:16:07,131 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-16 15:16:07,146 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-16 15:16:07,162 [restartedMain] INFO  c.j.t.Java08Application                            - Started Java08Application in 8.249 seconds (JVM running for 9.238)
+2022-11-16 15:17:00,010 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:17:00 ICT 2022
+2022-11-16 15:18:00,011 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:18:00 ICT 2022
+2022-11-16 15:19:00,010 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:19:00 ICT 2022
+2022-11-16 15:20:00,007 [taskScheduler-2] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:20:00 ICT 2022
+2022-11-16 15:21:00,017 [taskScheduler-5] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:21:00 ICT 2022
+2022-11-16 15:22:00,000 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:22:00 ICT 2022
+2022-11-16 15:23:00,002 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:23:00 ICT 2022
+2022-11-16 15:24:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:24:00 ICT 2022
+2022-11-16 15:25:00,002 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:25:00 ICT 2022
+2022-11-16 15:26:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:26:00 ICT 2022
+2022-11-16 15:27:00,011 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:27:00 ICT 2022
+2022-11-16 15:28:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:28:00 ICT 2022
+2022-11-16 15:29:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:29:00 ICT 2022
+2022-11-16 15:30:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:30:00 ICT 2022
+2022-11-16 15:31:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:31:00 ICT 2022
+2022-11-16 15:32:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:32:00 ICT 2022
+2022-11-16 15:33:00,002 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:33:00 ICT 2022
+2022-11-16 15:34:00,012 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:34:00 ICT 2022
+2022-11-16 15:35:00,009 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:35:00 ICT 2022
+2022-11-16 15:36:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:36:00 ICT 2022
+2022-11-16 15:37:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:37:00 ICT 2022
+2022-11-16 15:38:00,013 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:38:00 ICT 2022
+2022-11-16 15:39:00,011 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:39:00 ICT 2022
+2022-11-16 15:40:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:40:00 ICT 2022
+2022-11-16 15:41:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:41:00 ICT 2022
+2022-11-16 15:42:00,012 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:42:00 ICT 2022
+2022-11-16 15:43:00,017 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:43:00 ICT 2022
+2022-11-16 15:44:00,014 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:44:00 ICT 2022
+2022-11-16 15:45:00,006 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:45:00 ICT 2022
+2022-11-16 15:46:00,015 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:46:00 ICT 2022
+2022-11-16 15:47:00,013 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:47:00 ICT 2022
+2022-11-16 15:48:00,015 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:48:00 ICT 2022
+2022-11-16 15:49:00,011 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:49:00 ICT 2022
+2022-11-16 15:50:00,010 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:50:00 ICT 2022
+2022-11-16 15:51:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:51:00 ICT 2022
+2022-11-16 15:52:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:52:00 ICT 2022
+2022-11-16 15:53:00,003 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:53:00 ICT 2022
+2022-11-16 15:54:00,006 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:54:00 ICT 2022
+2022-11-16 15:55:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:55:00 ICT 2022
+2022-11-16 15:56:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:56:00 ICT 2022
+2022-11-16 15:57:00,007 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:57:00 ICT 2022
+2022-11-16 15:58:00,005 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:58:00 ICT 2022
+2022-11-16 15:59:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 15:59:00 ICT 2022
+2022-11-16 16:00:00,004 [taskScheduler-7] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:00:00 ICT 2022
+2022-11-16 16:00:55,376 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:00:55,376 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2022-11-16 16:00:55,376 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.
+2022-11-16 16:01:15,706 [background-preinit] INFO  o.h.v.i.u.Version                                  - HV000001: Hibernate Validator 6.2.4.Final
+2022-11-16 16:01:15,731 [restartedMain] INFO  c.j.t.Java08Application                            - Starting Java08Application using Java 18.0.1.1 on DESKTOP-O7JQGLD with PID 10488 (C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08\target\classes started by Acer in C:\Users\Acer\OneDrive\Máy tính\Code_Training_Management_System\java-08)
+2022-11-16 16:01:15,731 [restartedMain] INFO  c.j.t.Java08Application                            - No active profile set, falling back to 1 default profile: "default"
+2022-11-16 16:01:15,785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-11-16 16:01:15,785 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-11-16 16:01:16,614 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Multiple Spring Data modules found, entering strict repository configuration mode
+2022-11-16 16:01:16,614 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-16 16:01:16,801 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 185 ms. Found 26 JPA repository interfaces.
+2022-11-16 16:01:17,380 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat initialized with port(s): 8080 (http)
+2022-11-16 16:01:17,380 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Initializing ProtocolHandler ["http-nio-8080"]
+2022-11-16 16:01:17,380 [restartedMain] INFO  o.a.c.c.StandardService                            - Starting service [Tomcat]
+2022-11-16 16:01:17,380 [restartedMain] INFO  o.a.c.c.StandardEngine                             - Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-11-16 16:01:17,458 [restartedMain] INFO  o.a.c.c.C.[.[.[/]                                  - Initializing Spring embedded WebApplicationContext
+2022-11-16 16:01:17,458 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1673 ms
+2022-11-16 16:01:17,630 [restartedMain] INFO  o.h.j.i.u.LogHelper                                - HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-16 16:01:17,677 [restartedMain] INFO  o.h.Version                                        - HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-11-16 16:01:17,802 [restartedMain] INFO  o.h.a.c.Version                                    - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-16 16:01:17,880 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Starting...
+2022-11-16 16:01:18,083 [restartedMain] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Start completed.
+2022-11-16 16:01:18,083 [restartedMain] INFO  o.h.d.Dialect                                      - HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-11-16 16:01:18,442 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000038: Composite-id class does not override equals(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 16:01:18,442 [restartedMain] WARN  o.h.m.RootClass                                    - HHH000039: Composite-id class does not override hashCode(): com.java8.tms.common.entity.ClassTraineeId
+2022-11-16 16:01:19,083 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-16 16:01:19,083 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:01:19,473 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'loadUserByUsername' with attribute: [Builder[public org.springframework.security.core.userdetails.UserDetails com.java8.tms.common.security.userprincipal.CustomUserDetailService.loadUserByUsername(java.lang.String) throws org.springframework.security.core.userdetails.UsernameNotFoundException] caches=[userDetails] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 16:01:19,536 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'save' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.save(com.java8.tms.common.entity.BlackAccessToken)] caches=[blackAccessToken] | key='#blackAccessToken.accessToken' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null']
+2022-11-16 16:01:19,536 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByAccessToken' with attribute: [Builder[public com.java8.tms.common.entity.BlackAccessToken com.java8.tms.common.security.jwt.BlackAccessTokenServiceImp.findByAccessToken(java.lang.String)] caches=[blackAccessToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='#result == null' | sync='false']
+2022-11-16 16:01:19,786 [restartedMain] TRACE o.s.c.a.AnnotationCacheOperationSource             - Adding cacheable method 'findByToken' with attribute: [Builder[public java.util.Optional com.java8.tms.common.security.jwt.RefreshTokenProvider.findByToken(java.lang.String)] caches=[refreshToken] | key='' | keyGenerator='' | cacheManager='' | cacheResolver='' | condition='' | unless='' | sync='false']
+2022-11-16 16:01:20,458 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-16 16:01:21,074 [restartedMain] INFO  o.s.s.w.DefaultSecurityFilterChain                 - Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@5d26d474, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11b5fe3c, org.springframework.security.web.context.SecurityContextPersistenceFilter@11e59073, org.springframework.security.web.header.HeaderWriterFilter@3b25d754, org.springframework.web.filter.CorsFilter@f99561f, org.springframework.security.web.authentication.logout.LogoutFilter@6a16310, com.java8.tms.common.security.jwt.JwtTokenFilter@68f5d568, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7160d8a, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3f735f38, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@495a0056, org.springframework.security.web.session.SessionManagementFilter@19b07324, org.springframework.security.web.access.ExceptionTranslationFilter@521838e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3df8d4ff]
+2022-11-16 16:01:21,074 [restartedMain] INFO  c.j.t.Java08Application                            - Start schedule success!
+2022-11-16 16:01:21,183 [restartedMain] WARN  o.s.b.a.t.ThymeleafAutoConfiguration$DefaultTemplateResolverConfiguration - Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2022-11-16 16:01:21,433 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2022-11-16 16:01:21,465 [restartedMain] INFO  o.a.c.h.Http11NioProtocol                          - Starting ProtocolHandler ["http-nio-8080"]
+2022-11-16 16:01:21,480 [restartedMain] INFO  o.s.b.w.e.t.TomcatWebServer                        - Tomcat started on port(s): 8080 (http) with context path ''
+2022-11-16 16:01:21,496 [restartedMain] INFO  c.j.t.Java08Application                            - Started Java08Application in 6.072 seconds (JVM running for 7.042)
+2022-11-16 16:02:00,022 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:02:00 ICT 2022
+2022-11-16 16:03:00,012 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:03:00 ICT 2022
+2022-11-16 16:04:00,006 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:04:00 ICT 2022
+2022-11-16 16:05:00,013 [taskScheduler-2] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:05:00 ICT 2022
+2022-11-16 16:06:00,017 [taskScheduler-5] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:06:00 ICT 2022
+2022-11-16 16:07:00,005 [taskScheduler-1] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:07:00 ICT 2022
+2022-11-16 16:08:00,009 [taskScheduler-3] INFO  c.j.t.c.s.MyJob                                    - Execute deleteExpiredAccessToken task  - Wed Nov 16 16:08:00 ICT 2022
+2022-11-16 16:08:11,882 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-11-16 16:08:11,882 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown initiated...
+2022-11-16 16:08:11,882 [SpringApplicationShutdownHook] INFO  c.z.h.HikariDataSource                             - HikariPool-1 - Shutdown completed.

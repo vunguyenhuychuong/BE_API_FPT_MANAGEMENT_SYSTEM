@@ -1,0 +1,23 @@
+package com.java8.tms.syllabus.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+import java.util.List;
+import java.util.UUID;
+
+@Data
+@Builder
+@NoArgsConstructor
+@AllArgsConstructor
+public class SyllabusUnitChapterDTO {
+    private UUID id;
+    private String name;
+    private double duration;
+    private boolean isOnline;
+    private List<MaterialDTO> materials;
+    private OutputStandardDTO outputStandard;
+    private DeliveryTypeDTO deliveryType;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Properties>
+		<Property name="CONSOLE_LOG_PATTERN">
+			%d{yyyy-MMM-dd HH:mm:ss} [%t] %-5level %-50c{1.} - %msg%n
+		</Property>
+		<Property name="FILE_LOG_PATTERN">
+			%d [%t] %-5level %-50c{1.} - %msg%n
+		</Property>
+	</Properties>
+	<Appenders>
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="${CONSOLE_LOG_PATTERN}" />
+		</Console>
+		<File name="File" fileName="logs/tms${date:yyyyMMdd}.log">
+			<PatternLayout
+				pattern="${FILE_LOG_PATTERN}" />
+		</File>
+	</Appenders>
+	
+	<Loggers>
+		<Root level="info">
+			<AppenderRef ref="Console" />
+			<AppenderRef ref="File" />
+			
+
+		</Root>
+	</Loggers>
+</Configuration>
