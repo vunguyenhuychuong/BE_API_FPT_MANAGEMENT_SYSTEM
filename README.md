@@ -15,7 +15,7 @@ Functions:
   - Change status 
   - Rows per page click
   
-  Link Figma Design : <a href = "https://www.figma.com/file/iyitKZmwrPjlxVOchWiueh/FA_training_system_260822-BA_PRAC_class?node-id=163%3A4344&t=EJalEDBAG3ZaU4np-0" />
+  Link Figma Design : <a href="https://www.figma.com/file/iyitKZmwrPjlxVOchWiueh/FA_training_system_260822-BA_PRAC_class?node-id=163%3A4344&t=EJalEDBAG3ZaU4np-0">Link Figma</a>
   
   
 <img src="https://user-images.githubusercontent.com/86512368/211057212-cfb80507-cfe7-463f-849f-0be52f1ee8d8.png" >
