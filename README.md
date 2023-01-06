@@ -14,6 +14,13 @@ Functions:
   - Import click button on box
   - Change status 
   - Rows per page click
+ + View Training calendar Screen 
+  - Search by text box.
+  - Filter box
+  - Check session time Morning/Noon/Night
+  - Change status
+  - Attendee check box 
+  - 
   
   Link Figma Design : <a href="https://www.figma.com/file/iyitKZmwrPjlxVOchWiueh/FA_training_system_260822-BA_PRAC_class?node-id=163%3A4344&t=EJalEDBAG3ZaU4np-0">Link Figma</a>
   
@@ -29,5 +36,7 @@ Functions:
 <img src="https://user-images.githubusercontent.com/86512368/211060248-b262e8e9-5e1d-4416-b3db-5a4c936102d3.png" >
 
 <img src="https://user-images.githubusercontent.com/86512368/211060248-b262e8e9-5e1d-4416-b3db-5a4c936102d3.png" >
+
+<img src="https://user-images.githubusercontent.com/86512368/211062755-cbe94191-7f6d-4ef0-aae0-82fea29d359f.png" >
 
 
